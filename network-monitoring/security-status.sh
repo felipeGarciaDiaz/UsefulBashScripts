@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define safe ports array
-safe_ports=(80 443 3000 4200 8080 9050 9051 1883 18883)
+safe_ports=(22, 21, 20, 25, 80, 443, 9050, 9051)
 
 # Function to monitor the system
 monitor_system() {
